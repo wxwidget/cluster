@@ -1,0 +1,10 @@
+# -*- mode: python -*-
+import os
+# Inherit the environment from my parent.
+Import('env')
+env = env.Clone()
+source = env.Glob('dense-kmeans/*.cpp') + env.Glob('sparse-kmeans/*.cpp') 
+static = env.StaticObject(source)  
+shared = env.SharedObject(source) 
+all = static + shared + env.aDirs('weighted_knn')
+Return('all')

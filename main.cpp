@@ -3,7 +3,7 @@
 #include <cmath>
 #include "cluster_method.h"
 using namespace std;
-using namespace galaxy::antispam::anchor;
+using namespace clustering;
 
 struct Anchor: public ClusterNode
 {

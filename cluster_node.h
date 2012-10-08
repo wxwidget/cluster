@@ -1,15 +1,10 @@
-#ifndef GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_NODE_H
-#define GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_NODE_H
+#ifndef CLUSTERING_COMMON_CLUSTER_NODE_H
+#define CLUSTERING_COMMON_CLUSTER_NODE_H
 #include <tr1/memory>
 #include <string>
 #include <set>
-namespace galaxy
+namespace clustering
 {
-namespace antispam
-{
-namespace anchor 
-{
-
 ////////////////////////////////////////////////////////////////////////////////
 class ClusterNode;
 typedef std::tr1::shared_ptr<ClusterNode> ClusterNodePtr;
@@ -40,7 +35,5 @@ public:
     }
 };
 ////////////////////////////////////////////////////////////////////////////////
-}
-}
 }
 #endif

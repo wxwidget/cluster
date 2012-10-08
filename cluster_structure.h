@@ -1,15 +1,11 @@
-#ifndef GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_STRUCTURE_H
-#define GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_STRUCTURE_H
+#ifndef CLUSTERING_COMMON_CLUSTER_STRUCTURE_H
+#define  CLUSTERING_COMMON_CLUSTER_STRUCTURE_H
 #include <vector>
 #include <set>
 #include <list>
 #include <tr1/memory>
 #include "cluster_node.h"
-namespace galaxy
-{
-namespace antispam
-{
-namespace anchor 
+namespace clustering
 {
 ////////////////////////////////////////////////////////////////////////////////
 //
@@ -70,8 +66,6 @@ typedef std::tr1::shared_ptr<Cluster> ClusterPtr;
 typedef std::vector<ClusterNodePtr>  ClusterNodePtrVector;
 typedef std::list<ClusterNodePtr>  ClusterNodePtrList;
 
-}//end of anchor
-}//end of antispam
-}//end of galaxy
+}//end of clustering
 
-#endif /* GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_STRUCTURE_H */
+#endif 

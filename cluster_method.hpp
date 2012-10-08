@@ -1,11 +1,7 @@
-#ifndef GALAXY_ANTISPAM_ANCHOR_CLUSTER_METHOD_HPP
-#define GALAXY_ANTISPAM_ANCHOR_CLUSTER_METHOD_HPP
+#ifndef CLUSTERING_CLUSTER_METHOD_HPP
+#define  CLUSTERING_CLUSTER_METHOD_HPP
 #include <iostream>
-namespace galaxy
-{
-namespace antispam
-{
-namespace anchor
+namespace clustering
 {
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -109,8 +105,5 @@ void ClusterNodeAggregateCluster::DoCluster(const NodeT& clusterNodeVector,
     }
     //outClusterContainer.BuildCluster(parent);
 }
-
-}//end of namespace anchor
-}
-}
+}//end of namespace
 #endif

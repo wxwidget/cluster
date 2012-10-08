@@ -1,23 +1,10 @@
-/**
- * @file ClusterNode_cluster.h
- * @brief the file designed to cluster the ClusterNodes
- *
- * @author charis.yangc@aliyun-inc.com
- * @version 2.0
- * @date 2010-09-13
- *
- */
-#ifndef GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_METHOD_H
-#define GALAXY_ANTISPAM_ANCHOR_COMMON_CLUSTER_METHOD_H
+#ifndef CLUSTERING_COMMON_CLUSTER_METHOD_H
+#define CLUSTERING_COMMON_CLUSTER_METHOD_H
 
 #include "cluster_node.h"
 #include "cluster_structure.h"
 
-namespace galaxy
-{
-namespace antispam
-{
-namespace anchor
+namespace clustering
 {
 ////////////////////////////////////////////////////////////////////////////////
 template
@@ -87,7 +74,5 @@ public:
 
 ////////////////////////////////////////////////////////////////////////////////
 }
-}
-}
 #include "cluster_method.hpp"
-#endif /* GALAXY_ANTISPAM_ClusterNode_COMMON_CLUSTER_H */
+#endif 

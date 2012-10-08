@@ -3,7 +3,7 @@
 #include "cluster_structure.h"
 
 using namespace std;
-using namespace galaxy::antispam::anchor;
+using namespace clustering;
 
 
 void Cluster::Add(const ClusterNodePtr& ptr)
